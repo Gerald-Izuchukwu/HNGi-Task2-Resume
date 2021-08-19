@@ -1,0 +1,13 @@
+body {
+    padding: 20px;
+}
+.card {
+    width: 305px;
+    height: 165px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(221, 221, 221);
+    background-color: rgb(179, 128, 179);
+    margin: 10px;
+    display: inline-block;
+}

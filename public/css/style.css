@@ -40,7 +40,6 @@ ul,
 li,
 fieldset,
 form,
-label,
 legend,
 table,
 caption,
@@ -172,7 +171,6 @@ section:last-child {
 .sectionContent {
     float: right;
     width: 72.5%;
-    /* width: 100%; */
 }
 
 .sectionTitle h1 {
@@ -207,9 +205,6 @@ section:last-child {
 
 .keySkills ul li {
     margin-bottom: 3px;
-}
-.center {
-    margin-left: 50%;
 }
 
 @media all and (min-width: 602px) and (max-width: 800px) {
@@ -352,4 +347,27 @@ section:last-child {
     100% {
         opacity: 1;
     }
+}
+form > label {
+    display: block;
+}
+form > input {
+    display: block;
+    width: 60%;
+    height: 20px;
+    border: 1px solid rgb(160, 147, 147);
+}
+.btn {
+    margin-top: 8px;
+    height: 37px;
+    background-color: rgb(160, 147, 147);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-me {
+    width: fit-content;
+    margin: auto;
+    font-size: 1.3rem;
+    color: red;
+    font-weight: 600;
 }
